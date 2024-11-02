@@ -6,6 +6,7 @@ UniHub is a centralized platform designed to enhance academic collaboration amon
 
 	•	Project Repository: Upload and browse academic projects across disciplines.
 	•	Exam Archive: Access previous years’ exams, organized by subject and university.
+        •       Fully responsive website ,easily use in Mobile,Laptop or Tablet.
 	•	Notes Library: Find and contribute study notes to facilitate academic success.
 	•	User Authentication: Secure login and sign-up functionality for personalized access.
 	•	File Sharing: Easily download and upload resources with permissions.
@@ -40,7 +41,7 @@ cd unihub
 
 UniHub also has a mobile app version built with Flutter, which includes login, sign-up, and a home screen for easy access to resources.
 
-	Note: Provide instructions if additional setup is needed for the app version.
+	https://github.com/SachinChaurasia2004/Hackathon_Project
 
 🛠️ Contributing
 
