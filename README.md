@@ -1,5 +1,3 @@
-Here’s a README.md template you can use for your “unihub” repository:
-
 UniHub
 
 UniHub is a centralized platform designed to enhance academic collaboration among students across Indian universities. It enables students to share projects, past exam papers, and notes, promoting peer learning, innovation, and cross-functional research.
@@ -21,7 +19,7 @@ UniHub is a centralized platform designed to enhance academic collaboration amon
 
 🖥️ Demo
 
-	Note: Add a link to a live demo if available or screenshots showing the website’s main features.
+	https://iamkuldeep07.github.io/unihub/login.html
 
 📂 Installation
 
