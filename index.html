@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="google-translate-customization" content="9f841e7780177523-3214ceb76f765f38-gc38c6fe6f9d06436-c">
+    </meta>
+
+    <title>UniHUB : Online Courses</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/icon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+     <style>
+        @font-face {
+        font-family: boldd;
+        src: url(./Resources/Font/Montreal-Bold.woff);
+}
+    @font-face {
+    font-family: regular;
+    src: url(./Resources/Font/Montreal-Regular.woff);
+}
+     </style>
+  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+   
+</head>
+
+<body style="background-color: #d9d3ce;">
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow p-0" style=" font-family: 'boldd';">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <div class="d-flex align-items-center">
+                <p class="m-0 fw-bold" style="font-size: 2.5vw; color: #201404; font-family: 'boldd'; font-weight: 900;">Uni<span
+                    style="color: #fb873f;">HUB</span></p>
+            </div>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active" style="transition: all 0.3s ease; position: relative;">Home</a>
+                <a href="about.html" class="nav-item nav-link" style="transition: all 0.3s ease; position: relative;">About</a>
+                <a href="testimonial.html" class="nav-item nav-link" style="transition: all 0.3s ease; position: relative;">Testimonial</a>
+                <a href="instructor.html" class="nav-item nav-link" style="transition: all 0.3s ease; position: relative;">Instructor</a>
+                <a href="contact.html" class="nav-item nav-link" style="transition: all 0.3s ease; position: relative;">Contact</a>
+                <a href="login.html" class="nav-item nav-link" style="transition: all 0.3s ease;"><i class="fa fa-user"></i></a>
+                <a href="#" class="nav-item nav-link">
+                    <div id="google_translate_element">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid p-0 mb-4;">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class=" text-uppercase mb-3 animated slideInDown" style="color: #fb873f;">Connect, Contribute, and Advance Your Knowledge</h5>
+                                <h1 class="display-3 text-white animated slideInDown" style="font-family: 'boldd';">Welcome to
+                                    UniHUB</h1>
+                                <p class=" text-white mb-4 pb-2">Connect with a vibrant community of students across universities, contribute your unique insights, and access valuable resources to advance your knowledge and academic journey. Join us to learn, share, and grow!</p>
+                                <a href="about.html"
+                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="signup.html" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class=" text-uppercase mb-3 animated slideInDown" style="color: #fb873f;">Previous Exams, Notes, Projects – All at Your Fingertips</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Interactive Learning Experience
+                                </h1>
+                                <p class=" text-white mb-4 pb-2">Access a vast collection of previous exams, detailed notes, and innovative projects—all organized and easily accessible. Empower your academic journey with resources that put essential study materials right at your fingertips.</p>
+                                <a href="about.html"
+                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="signup.html" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-2 text-center mb-5">
+                <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 style="color: #fb873f; font-family: 'boldd';">Access University Resources with UniHUB</h1>
+                    <p class="mb-5">Get unlimited access to previous year question papers, lecture notes, projects, and study materials 
+                        from various universities, shared by students and faculty.</p>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp mb-4" data-wow-delay="0.1s">
+                    <div class="service-item text-center pt-3 shadow" style="border: 2px solid #fb873f; border-radius: 15px; transition: all 0.3s ease;">
+                        <div class="p-4">
+                            <img src="img/icon1.png" alt="" width="60px" class="mb-4" style="border: 3px solid #f0e4de; border-radius: 50%; padding: 10px;">
+                            <h5 class="mb-3" style="font-family: 'boldd'; color: #fb873f;">Previous Year Papers</h5>
+                            <p>Access a vast collection of previous year question papers across different courses and universities</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp mb-4" data-wow-delay="0.3s">
+                    <div class="service-item text-center pt-3 shadow" style="border: 2px solid #fb873f; border-radius: 15px; transition: all 0.3s ease;">
+                        <div class="p-4">
+                            <img src="img/icon2.png" alt="" width="60px" class="mb-4" style="border: 3px solid #f0e4de; border-radius: 50%; padding: 10px;">
+                            <h5 class="mb-3" style="font-family: 'boldd'; color: #fb873f;">Study Notes</h5>
+                            <p>Download comprehensive lecture notes and study materials shared by top students and faculty</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp mb-4" data-wow-delay="0.5s">
+                    <div class="service-item text-center pt-3 shadow" style="border: 2px solid #fb873f; border-radius: 15px; transition: all 0.3s ease;">
+                        <div class="p-4">
+                            <img src="img/icon3.png" alt="" width="60px" class="mb-4" style="border: 3px solid #f0e4de; border-radius: 50%; padding: 10px;">
+                            <h5 class="mb-3" style="font-family: 'boldd'; color: #fb873f;">Student Projects</h5>
+                            <p>Explore innovative projects and assignments from various academic disciplines and universities</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp mb-4" data-wow-delay="0.7s">
+                    <div class="service-item text-center pt-3 shadow" style="border: 2px solid #fb873f; border-radius: 15px; transition: all 0.3s ease;">
+                        <div class="p-4">
+                            <img src="img/icon4.png" alt="" width="60px" class="mb-4" style="border: 3px solid #f0e4de; border-radius: 50%; padding: 10px;">
+                            <h5 class="mb-3" style="font-family: 'boldd'; color: #fb873f;">Community Support</h5>
+                            <p>Connect with fellow students, share resources, and get help from a supportive academic community</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="https://plus.unsplash.com/premium_photo-1681494162721-9fd9f120a9e2?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""
+                            style="object-fit: cover; border-radius: 15px;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="text-start pe-3" style="font-family: 'boldd'; font-size: 1.9rem; color: #000;">About Us</h6>
+                    <h1 class="mb-4" style="color: #fb873f;">Welcome to UniHUB</h1>
+                    <p class="mb-4">At UniHUB, we believe in the power of collaborative learning and resource sharing among university students. Our platform serves as a central hub where students can access, share, and contribute to a growing repository of academic materials.</p>
+                    <p class="mb-4">We're dedicated to making university education more accessible and collaborative by connecting students across institutions. Our platform enables seamless sharing of study materials, previous year papers, and project resources, creating a supportive community where knowledge flows freely.</p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Previous Year Papers</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Lecture Notes</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Student Projects</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Study Materials</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Student Community</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Resource Sharing</p>
+                        </div>
+                    </div>
+                    <a class="btn text-light py-3 px-5 mt-2" href="about.html">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+
+
+    <!-- Banner-1 Start -->
+    <div class="container-xxl py-5 pt-5">
+        <div class="container">
+            <div class="row g-5 ">
+                <div class="col-lg-6 p-5 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="mb-4" style="color: #fb873f; font-family: 'boldd';">Share Your Knowledge</h1>
+                    <p class="mb-4" style="font-family: 'regular'; font-size: 1.2rem;">Contribute to our growing repository of academic resources by sharing your lecture notes, 
+                    previous year papers, and project materials to help fellow students excel in their studies.</p>
+
+                    <a class="btn text-light py-3 px-5 mt-2" href="signup.html">Start Sharing</a>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""
+                            style="object-fit: cover; border-radius: 15px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner-1 End -->
+
+
+
+    <!-- Categories Start -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="mb-5" style="color: #fb873f; font-family: 'boldd';">Our Associated Universities</h1>
+            </div>
+            
+            <!-- First Row - Scrolling Left -->
+            <div class="slider-container">
+                <div class="slider" >
+                    <div class="slide-track">
+                        <!-- Duplicate items for seamless loop -->
+                        <div class="slide">
+                            <img src="https://www.nitm.ac.in/ckfinder/userfiles/files/NITM.jpg" alt="university" style="width: 150px; height: 150px; border-radius: 75%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">NIT Meghalaya</h5>
+                        </div>
+                        <div class="slide">
+                            <img src="https://i.pinimg.com/564x/c6/c2/e9/c6c2e9022f25f404fe108a4cfefab222.jpg" alt="university" style="width: 150px; height: 150px; border-radius: 75%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">VIT Vellore</h5>
+                        </div>
+                        <div class="slide">
+                            <img src="https://i.pinimg.com/originals/3c/ae/d9/3caed9209fb51c8ee3603791992169c5.png" alt="university" style="width: 150px; height: 150px; border-radius: 75%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">NIT Surathkal</h5>
+                        </div>
+                        <div class="slide">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHrGDN5QMa7WpSPRk0nW7vxHse3ZmquPS0HAVVx2CUwbER36GKLREp7ucJYnUZ1P4Zz1I&usqp=CAU" alt="university" style="width: 150px; height: 150px; border-radius: 75%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">BITS Pilani</h5>
+                        </div>
+                        <!-- Duplicate slides for seamless loop -->
+                        <div class="slide">
+                            <img src="https://www.nitm.ac.in/ckfinder/userfiles/files/NITM.jpg" alt="university" style="width: 150px; height: 150px; border-radius: 75%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">NIT Meghalaya</h5>
+                        </div>
+                        <div class="slide">
+                            <img src="https://i.pinimg.com/564x/c6/c2/e9/c6c2e9022f25f404fe108a4cfefab222.jpg" alt="university" style="width: 150px; height: 150px; border-radius: 75%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">VIT Vellore</h5>
+                        </div>
+                        <div class="slide">
+                            <img src="https://i.pinimg.com/originals/3c/ae/d9/3caed9209fb51c8ee3603791992169c5.png" alt="university" style="width: 150px; height: 150px; border-radius: 75%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">NIT Surathkal</h5>
+                        </div>
+                        <div class="slide">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHrGDN5QMa7WpSPRk0nW7vxHse3ZmquPS0HAVVx2CUwbER36GKLREp7ucJYnUZ1P4Zz1I&usqp=CAU" alt="university" style="width: 150px; height: 150px; border-radius: 75%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">BITS Pilani</h5>
+                        </div>
+                        <div class="slide">
+                            <img src="https://www.nitm.ac.in/ckfinder/userfiles/files/NITM.jpg" alt="university" style="width: 150px; height: 150px; border-radius: 75%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">NIT Meghalaya</h5>
+                        </div>
+                        <div class="slide">
+                            <img src="https://i.pinimg.com/564x/c6/c2/e9/c6c2e9022f25f404fe108a4cfefab222.jpg" alt="university" style="width: 150px; height: 150px; border-radius: 75%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">VIT Vellore</h5>
+                        </div>
+                        <div class="slide">
+                            <img src="https://i.pinimg.com/originals/3c/ae/d9/3caed9209fb51c8ee3603791992169c5.png" alt="university" style="width: 150px; height: 150px; border-radius: 75%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">NIT Surathkal</h5>
+                        </div>
+                        <div class="slide">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHrGDN5QMa7WpSPRk0nW7vxHse3ZmquPS0HAVVx2CUwbER36GKLREp7ucJYnUZ1P4Zz1I&usqp=CAU" alt="university" style="width: 150px; height: 150px; border-radius: 75%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">BITS Pilani</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Row - Scrolling Right -->
+            <div class="slider-container">
+                <div class="slider reverse" style="animation-duration: 15s;">
+                    <div class="slide-track">
+                        <!-- Duplicate items for seamless loop -->
+                        <div class="slide">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTedL5cc9dPNkSARsgbZrfEg_bLHOk6GkgWOHoQhenyEVRWM2rdt6HKE1YtNim1C4aQNZ8&usqp=CAU" alt="university" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">IIT Delhi</h5>
+                        </div>
+                        <div class="slide">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ6M4gv8Omj01UCC5UcLxM_mG_IHfxJu7_vxMxgmqlZmuBi-Cd-q7-gQeg2pvQac_jkVA&usqp=CAU" alt="university" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">IIT Madras</h5>
+                        </div>
+                        <div class="slide">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnI5BvtR3A2c4TnOO6XoHvpaHqX49ZpdtHTQ&s" alt="university" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">IIT Guwahati</h5>
+                        </div>
+                        <div class="slide">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwbbMz-P0ZeAxxp-NZKorARVzE-aniCQd2dQ&s" alt="university" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">IIT Kanpur</h5>
+                        </div>
+                        <div class="slide">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS97GonNfpNdEuKNaVgv_IUKt54bcFu02qIsQ&s" alt="university" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">IIT Bombay</h5>
+                        </div>
+                        <!-- Duplicate slides for seamless loop -->
+                        <div class="slide">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTedL5cc9dPNkSARsgbZrfEg_bLHOk6GkgWOHoQhenyEVRWM2rdt6HKE1YtNim1C4aQNZ8&usqp=CAU" alt="university" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">IIT Delhi</h5>
+                        </div>
+                        <div class="slide">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ6M4gv8Omj01UCC5UcLxM_mG_IHfxJu7_vxMxgmqlZmuBi-Cd-q7-gQeg2pvQac_jkVA&usqp=CAU" alt="university" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">IIT Madras</h5>
+                        </div>
+                        <div class="slide">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnI5BvtR3A2c4TnOO6XoHvpaHqX49ZpdtHTQ&s" alt="university" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">IIT Guwahati</h5>
+                        </div>
+                        <div class="slide">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwbbMz-P0ZeAxxp-NZKorARVzE-aniCQd2dQ&s" alt="university" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">IIT Kanpur</h5>
+                        </div>
+                        <div class="slide">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS97GonNfpNdEuKNaVgv_IUKt54bcFu02qIsQ&s" alt="university" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid #000; object-fit: cover;">
+                            <h5 style="font-family: 'boldd';">IIT Bombay</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Categories End -->
+     
+
+
+   <!-- PYQs Section Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="mb-5" style="color: #fb873f; font-family: 'boldd';">Popular Study Materials</h1>
+            </div>
+            <div class="row g-4 py-2">
+                <!-- Study Material Card 1 -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow" style="border-radius: 15px; transition: all 0.3s ease;">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="https://plus.unsplash.com/premium_photo-1725408045441-caab8be43801?q=80&w=2882&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="height: 200px; width: 100%; object-fit: cover;">
+                            <div class="badge" style="position:absolute; top: 15px; left: 16px; font-size:12px; border-radius:5px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase text-white">IIT BOMBAY </div>
+                        </div>
+                        <div class="p-4">
+                            <h5 class="mb-3" style="font-family: 'boldd';">PYQs 2023</h5>
+                            <div class="d-flex mb-3">
+                                <small class="flex-fill text-center"><i class="fa fa-book text-primary me-2"></i>65 Questions</small>
+                                <small class="flex-fill text-center"><i class="fa fa-clock text-primary me-2"></i>3 Hours</small>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <small class="flex-fill text-center"><i class="fa fa-download text-primary me-2"></i>10K+ Downloads</small>
+                                <small class="flex-fill text-center"><i class="fa fa-file text-primary me-2"></i>PDF</small>
+                            </div>
+                            <a class="btn w-100 text-light" href="login.html" style="background-color: #fb873f;">Download Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item shadow" style="border-radius: 15px; transition: all 0.3s ease;">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="./img/pyqdelhi.avif" alt="" style="height: 200px; width: 100%; object-fit: cover;">
+                            <div class="badge" style="position:absolute; top: 15px; left: 16px; font-size:12px; border-radius:5px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase text-white">IIT DELHI</div>
+                        </div>
+                        <div class="p-4">
+                            <h5 class="mb-3" style="font-family: 'boldd';">PYQs 2023</h5>
+                            <div class="d-flex mb-3">
+                                <small class="flex-fill text-center"><i class="fa fa-book text-primary me-2"></i>90 Questions</small>
+                                <small class="flex-fill text-center"><i class="fa fa-clock text-primary me-2"></i>3 Hours</small>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <small class="flex-fill text-center"><i class="fa fa-download text-primary me-2"></i>15K+ Downloads</small>
+                                <small class="flex-fill text-center"><i class="fa fa-file text-primary me-2"></i>PDF</small>
+                            </div>
+                            <a class="btn w-100 text-light" href="login.html" style="background-color: #fb873f;">Download Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item shadow" style="border-radius: 15px; transition: all 0.3s ease;">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="https://images.unsplash.com/photo-1498079022511-d15614cb1c02?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="height: 200px; width: 100%; object-fit: cover;">
+                            <div class="badge" style="position:absolute; top: 15px; left: 16px; font-size:12px; border-radius:5px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase text-white">IIT MADRAS</div>
+                        </div>
+                        <div class="p-4">
+                            <h5 class="mb-3" style="font-family: 'boldd';">PYQs 2023</h5>
+                            <div class="d-flex mb-3">
+                                <small class="flex-fill text-center"><i class="fa fa-book text-primary me-2"></i>54 Questions</small>
+                                <small class="flex-fill text-center"><i class="fa fa-clock text-primary me-2"></i>3 Hours</small>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <small class="flex-fill text-center"><i class="fa fa-download text-primary me-2"></i>8K+ Downloads</small>
+                                <small class="flex-fill text-center"><i class="fa fa-file text-primary me-2"></i>PDF</small>
+                            </div>
+                            <a class="btn w-100 text-light" href="login.html" style="background-color: #fb873f;">Download Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="course-item shadow" style="border-radius: 15px; transition: all 0.3s ease;">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="height: 200px; width: 100%; object-fit: cover;">
+                            <div class="badge" style="position:absolute; top: 15px; left: 16px; font-size:12px; border-radius:5px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase text-white">NIT MEGHALAYA</div>
+                        </div>
+                        <div class="p-4">
+                            <h5 class="mb-3" style="font-family: 'boldd';">PYQs 2023</h5>
+                            <div class="d-flex mb-3">
+                                <small class="flex-fill text-center"><i class="fa fa-book text-primary me-2"></i>180 Questions</small>
+                                <small class="flex-fill text-center"><i class="fa fa-clock text-primary me-2"></i>3.5 Hours</small>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <small class="flex-fill text-center"><i class="fa fa-download text-primary me-2"></i>12K+ Downloads</small>
+                                <small class="flex-fill text-center"><i class="fa fa-file text-primary me-2"></i>PDF</small>
+                            </div>
+                            <a class="btn w-100 text-light" href="login.html" style="background-color: #fb873f;">Download Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-lg text-light" style="background-color: #fb873f; font-family: 'boldd';">View More Study Materials</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="mb-5" style="color: #fb873f; font-family: 'boldd';">Featured Projects</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow" style="border-radius: 15px;">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="./img/e-commerce.avif" alt="" style="height: 200px; width: 100%; object-fit: cover;">
+                            <div class="badge" style="position:absolute; top: 15px; left: 16px; font-size:12px; border-radius:5px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase text-white">Web Development</div>
+                        </div>
+                        <div class="p-4">
+                            <h5 class="mb-3" style="font-family: 'boldd';">E-Commerce Website</h5>
+                            <p class="mb-3">A full-stack e-commerce platform built with MERN stack</p>
+                            <a class="btn w-100 text-light" href="#" style="background-color: #fb873f;">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item shadow" style="border-radius: 15px;">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/facereco.jpg" alt="" style="height: 200px; width: 100%; object-fit: cover;">
+                            <div class="badge" style="position:absolute; top: 15px; left: 16px; font-size:12px; border-radius:5px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase text-white">Machine Learning</div>
+                        </div>
+                        <div class="p-4">
+                            <h5 class="mb-3" style="font-family: 'boldd';">Face Recognition System</h5>
+                            <p class="mb-3">AI-powered facial recognition using Python and OpenCV</p>
+                            <a class="btn w-100 text-light" href="#" style="background-color: #fb873f;">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item shadow" style="border-radius: 15px;">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/fitness.webp" alt="" style="height: 200px; width: 100%; object-fit: cover;">
+                            <div class="badge" style="position:absolute; top: 15px; left: 16px; font-size:12px; border-radius:5px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase text-white">Mobile App</div>
+                        </div>
+                        <div class="p-4">
+                            <h5 class="mb-3" style="font-family: 'boldd';">Fitness Tracker App</h5>
+                            <p class="mb-3">React Native mobile app for fitness tracking</p>
+                            <a class="btn w-100 text-light" href="#" style="background-color: #fb873f;">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="course-item shadow" style="border-radius: 15px;">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/smart-home.255fe.png" alt="" style="height: 200px; width: 100%; object-fit: cover;">
+                            <div class="badge" style="position:absolute; top: 15px; left: 16px; font-size:12px; border-radius:5px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase text-white">IoT</div>
+                        </div>
+                        <div class="p-4">
+                            <h5 class="mb-3" style="font-family: 'boldd';">Smart Home System</h5>
+                            <p class="mb-3">IoT-based home automation using Arduino</p>
+                            <a class="btn w-100 text-light" href="#" style="background-color: #fb873f;">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-lg text-light" style="background-color: #fb873f; font-family: 'boldd';">View More Projects</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notes Section -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="mb-5" style="color: #fb873f; font-family: 'boldd';">Latest Notes</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow" style="border-radius: 15px;">
+                        <div class="p-4">
+                            <h5 class="mb-3" style="font-family: 'boldd';">Operating Systems</h5>
+                            <p class="mb-3">Comprehensive notes on OS concepts</p>
+                            <div class="d-flex justify-content-between mb-3">
+                                <small><i class="fa fa-user text-primary me-2"></i>Dr. Smruti Ranjan Sarangi</small>
+                                <small><i class="fa fa-star text-primary me-2"></i>4.8</small>
+                            </div>
+                            <a class="btn w-100 text-light" href="#" style="background-color: #fb873f;">Download Notes</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item shadow" style="border-radius: 15px;">
+                        <div class="p-4">
+                            <h5 class="mb-3" style="font-family: 'boldd';">Database Management</h5>
+                            <p class="mb-3">Complete DBMS concepts and SQL</p>
+                            <div class="d-flex justify-content-between mb-3">
+                                <small><i class="fa fa-user text-primary me-2"></i>PDr. Samiran Chattopadhyay</small>
+                                <small><i class="fa fa-star text-primary me-2"></i>4.6</small>
+                            </div>
+                            <a class="btn w-100 text-light" href="#" style="background-color: #fb873f;">Download Notes</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item shadow" style="border-radius: 15px;">
+                        <div class="p-4">
+                            <h5 class="mb-3" style="font-family: 'boldd';">Computer Networks</h5>
+                            <p class="mb-3">Networking fundamentals and protocols</p>
+                            <div class="d-flex justify-content-between mb-3">
+                                <small><i class="fa fa-user text-primary me-2"></i>Prof. Jagannadha Naidu </small>
+                                <small><i class="fa fa-star text-primary me-2"></i>4.7</small>
+                            </div>
+                            <a class="btn w-100 text-light" href="#" style="background-color: #fb873f;">Download Notes</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="course-item shadow" style="border-radius: 15px;">
+                        <div class="p-4">
+                            <h5 class="mb-3" style="font-family: 'boldd';">Software Engineering</h5>
+                            <p class="mb-3">Software development lifecycle & methodologies</p>
+                            <div class="d-flex justify-content-between mb-3">
+                                <small><i class="fa fa-user text-primary me-2"></i>Dr. Ruchika Malhotra</small>
+                                <small><i class="fa fa-star text-primary me-2"></i>4.9</small>
+                            </div>
+                            <a class="btn w-100 text-light" href="#" style="background-color: #fb873f;">Download Notes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <a class="btn text-light py-3 px-5 mt-2 mb-5" href="materials.html" style="background-color: #fb873f; border-radius: 10px;">View All Materials</a>
+    </div>
+    <!-- Courses End -->
+
+
+    <!-- Banner-2 Start -->
+    <section class="pb-5" style="background: url('img/banner-3.jpg'); background-size: cover; background-position: center;">
+        <div class="container-xxl mt-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="img-fluid position-absolute w-100 h-100" src="img/banner-2.png" alt="Share Knowledge Banner"
+                                style="object-fit: cover; border-radius: 15px;">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 p-5 wow fadeInUp" data-wow-delay="0.3s">
+                        <h1 class="mb-4" style="color: #fb873f; font-family: 'boldd';">Share Your Academic Resources</h1>
+                        <p class="mb-4 text-white" style="font-family: 'regular'; font-size: 1.2rem;">
+                            Join our community of students and educators who are making education more accessible. 
+                            Share your study materials, previous year papers, and project resources to help fellow students excel in their academic journey.
+                        </p>
+                        <div class="d-flex gap-3">
+                            <a class="btn text-light py-3 px-4" href="upload.html" style="background-color: #fb873f;">
+                                Upload Materials
+                            </a>
+                            <a class="btn py-3 px-4" href="instructor.html" style="background-color: #fff; color: #000;">
+                                Become an Instructor
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner-2 End -->
+
+    <!-- FAQ Start -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="mb-5" style="color: #fb873f; font-family: 'boldd';">Frequently Asked Questions</h1>
+            </div>
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is UniHUB?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                UniHUB is a collaborative platform that connects university students across India, providing access to a vast collection of academic resources including previous year question papers, lecture notes, study materials, and student projects. Our mission is to make quality educational resources freely available to all students.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How can I access study materials on UniHUB?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                You can easily access study materials by creating a free account on UniHUB. Once registered, you can browse through our extensive collection of resources organized by university, course, and subject. Simply click on the desired material to download it.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Can I contribute my own study materials?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Yes! We encourage students to share their study materials, notes, and previous year papers. After logging in, you can use our simple upload feature to contribute your resources. All shared materials are reviewed to ensure quality before being made available to the community.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Is UniHUB free to use?
+                              </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes, UniHUB is completely free! Our platform is built on the principle of knowledge sharing. You can access and download all materials without any charges. We believe in making education accessible to everyone.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Which universities are currently part of UniHUB?
+                              </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                UniHUB partners with many leading institutions across India, including:
+                                <ul>
+                                    <li>IIT Delhi, Bombay, Madras, and Bangalore</li>
+                                    <li>IIIT Hyderabad</li>
+                                    <li>VIT Vellore</li>
+                                    <li>And many more top universities</li>
+                                </ul>
+                                We're continuously expanding our network to include more institutions.
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="position-relative" style="height: 600px;">
+                        <img class="img-fluid w-100 h-100 " 
+                             src="https://flexiblefaqs.com/wp-content/uploads/2021/10/features-2048x2048.png" 
+                             alt="FAQ Image" 
+                             style="object-fit: contain; border-radius: 15px; padding: 10px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3" style="font-family: 'boldd';">Quick Links</h4>
+                    <p><a class="text-light" href="about.html">About UniHUB</a></p>
+                    <p><a class="text-light" href="contact.html">Contact Us</a></p>
+                    <p><a class="text-light" href="">Privacy Policy</a></p>
+                    <p><a class="text-light" href="">Terms & Conditions</a></p>
+                    <p><a class="text-light" href="">FAQs & Help</a></p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3" style="font-family: 'boldd';">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3" style="color: #fb873f"></i>UniHUB Office, Bangalore, Karnataka</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3" style="color: #fb873f"></i>+91 9876543210</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3" style="color: #fb873f"></i>support@unihub.edu</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social me-2" href="" style="border-color: #fb873f"><i class="fab fa-twitter" ></i></a>
+                        <a class="btn btn-outline-light btn-social me-2" href="" style="border-color: #fb873f"><i class="fab fa-facebook-f" ></i></a>
+                        <a class="btn btn-outline-light btn-social me-2" href="" style="border-color: #fb873f"><i class="fab fa-youtube" ></i></a>
+                        <a class="btn btn-outline-light btn-social" href="" style="border-color: #fb873f"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3" style="font-family: 'boldd';">Join Our Community</h4>
+                    <p>Subscribe to get updates about new study materials, university resources and educational opportunities!</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <form action="#">
+                            <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email"
+                                placeholder="Enter your email" required>
+                            <button type="submit" style="background-color: #fb873f; border: none;"
+                                class="btn py-2 position-absolute top-0 end-0 mt-2 me-2">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center mb-3 mb-md-0 mx-auto">
+                        &copy; <a class="border-bottom" href="index.html" style="color: #fb873f; text-decoration: none;">UniHUB</a>, All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary rounded-circle back-to-top" style="width: 45px; height: 45px; display: flex; align-items: center; justify-content: center; right: 45px; left: auto;"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/animation.js"></script>
+</bod>
+
+</html>
